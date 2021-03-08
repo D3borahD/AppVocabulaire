@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <head>
+      <div class="commandes">
+        <button class="add_kanji">Add Kanji</button>
+        <button class="add_vocabulaire">Add vocabulaire</button>
+        <button class="test">Test</button>
+        <button class="revision">Révisions</button>
+      </div>
+    </head>
+    <main>
+      <!-- <div class="card_kanji"></div> -->
 
+      <div class="card">
+        <input type="text" id="tr" name="furigana" placeholder="furigana" />
+        <input
+          type="text"
+          id="ruby"
+          name="japoanais"
+          placeholder="vocabulaire"
+        />
+        <input
+          type="text"
+          id="traduction"
+          name="français"
+          placeholder="traduction"
+        />
+        <input
+          type="text"
+          id="phrase"
+          name="phrase"
+          placeholder="phrase exemple"
+        />
+        <input type="submit" value="enregistrer" />
+      </div>
+      <div class="test"></div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="main.js"></script>
+</html>
